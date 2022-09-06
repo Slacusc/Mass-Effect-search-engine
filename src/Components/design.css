@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+   
+
+}
+.nav {
+    background-color: #355091;
+    border: 5px solid #355091;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.16), 0 5px 6px rgba(0, 0, 0, 0.23);
+    width: auto;
+    height: 100px;
+    margin-top: 0px;
+}
+
+.logo {
+    background-color: #355091;
+    height: auto;
+    max-width: 18%;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+   
+ 
+}
+.buttons {
+    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+
+ul {
+    color: white;
+}
