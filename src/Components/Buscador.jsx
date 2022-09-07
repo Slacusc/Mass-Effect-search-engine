@@ -1,5 +1,7 @@
 import React from "react";
+import Content from "./Body";
 import Nav from "./botones"
+
 
 
 function Buscador() {
@@ -10,8 +12,10 @@ return (
     <section>
         <Nav />
     </section>
-    
-    <h1>probanding</h1>
+    <section>
+        <Content />
+    </section>
+   
     </div>
     </>
 )
