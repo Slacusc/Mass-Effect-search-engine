@@ -31,9 +31,10 @@
 .buttons { 
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
-    font-size: xx-large;
+    justify-content: space-between;
+    font-size: large;
     font-weight: bold;
+    margin-left: 100px;
     
 }
 
@@ -65,6 +66,7 @@ ul {
 
 }
 
+
 .container {  display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -83,4 +85,98 @@ ul {
  }
   
   .grid1 { grid-area: grid1; }
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+/*menu */
+
+
+.dropdown {
+    position: relative;
+    display: block;
+    
   
+}
+
+.dropbtn {
+  background-color: #95E6F9;
+  color: #ffffff;
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  text-shadow: black 0.1em 0.1em 0.2em;
+  width: 200px;
+  height: 30px;
+
+
+  
+}
+
+
+.dropdown-content {
+  display: none;
+  background-color: #95E6F9;
+  border-radius: 10px;
+  align-items: baseline;
+  justify-content: center;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 5px;
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #95E6F9;}
+
+
+.lista {
+  color: white;
+  width: 200px;
+  height: 30px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  text-align: center;
+  list-style: none;
+}
+
+.search {
+  background-color: #DF5639;
+  color: white;
+  width: 200px;
+  height: 30px;
+  border-radius: 30px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  text-shadow: black 0.1em 0.1em 0.2em;
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
