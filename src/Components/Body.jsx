@@ -11,15 +11,15 @@ function Content () {
              <section className="dropdown">
                 <li className="dropbtn">Selecciona
                 <div className="dropdown-content">
-                    <a className="lista">MaleShep</a>
-                    <a className="lista">FemShep</a>
+                    <li className="lista">MaleShep</li>
+                    <li className="lista">FemShep</li>
                     
                 </div>
                 </li>
             </section>
             <h1 className="titulo1">Clase</h1>
             <section className="dropdown">
-                <button className="dropbtn">Selecciona</button>
+                <li className="dropbtn">Selecciona</li>
                 <div className="dropdown-content">
                     <li className="lista">Infiltrado</li>
                     <li className="lista">tanque</li>

@@ -1,6 +1,6 @@
 import React from "react";
 import Content from "./Body";
-import Nav from "./botones"
+import Nav from "./Botones"
 
 
 
