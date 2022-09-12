@@ -7,7 +7,7 @@ function Content () {
         <section className="container">
             <section className="grid1">
               <h1 className="titulo1">Eres</h1>
-              <div className="contenedor">
+        <div className="contenedor">
              <section className="dropdown">
                 <button className="dropbtn">Selecciona</button>
                 <div className="dropdown-content">
