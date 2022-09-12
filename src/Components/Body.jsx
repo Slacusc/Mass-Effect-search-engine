@@ -9,12 +9,13 @@ function Content () {
               <h1 className="titulo1">Eres</h1>
         <div className="contenedor">
              <section className="dropdown">
-                <button className="dropbtn">Selecciona</button>
+                <li className="dropbtn">Selecciona
                 <div className="dropdown-content">
-                    <li className="lista">MaleShep</li>
-                    <li className="lista">FemShep</li>
+                    <a className="lista">MaleShep</a>
+                    <a className="lista">FemShep</a>
                     
                 </div>
+                </li>
             </section>
             <h1 className="titulo1">Clase</h1>
             <section className="dropdown">
