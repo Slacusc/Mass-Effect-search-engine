@@ -4,16 +4,32 @@
    
 
 }
+
 .nav {
     background-color: #355091;
     border: 5px solid #355091;
     box-shadow: 0 5px 6px rgba(0, 0, 0, 0.16), 0 5px 6px rgba(0, 0, 0, 0.23);
-    width: auto;
-    height: 100px;
-    margin-top: 0px;
     display: flex;
-    
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+  
 
+
+.navcontent{
+  color: white;
+  width: 200px;
+  height: 30px; 
+  text-shadow: black 0.1em 0.1em 0.2em;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  font-size: large;
+  font-weight: bold;
+
+  
+  
 }
 
 .logo {
@@ -28,15 +44,7 @@
    
  
 }
-.buttons { 
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    font-size: large;
-    font-weight: bold;
-    margin-left: 100px;
-    
-}
+
 
 .titulo1 {
     color: white;
@@ -50,15 +58,7 @@
 
 }
 
-li{
-    color: white;
-    margin-top: 30px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    margin-right: 30px;
-    text-shadow: black 0.1em 0.1em 0.2em;
-    list-style: none;
-}
+
 
 .foto {
     height: auto;
@@ -99,8 +99,9 @@ li{
 
 
 .dropdown {
+   
+    display: inline-block;
     position: relative;
-    display: block;
     
   
 }
@@ -128,30 +129,27 @@ li{
 
 .dropdown-content {
   display: none;
+  position: absolute;
   background-color: #95E6F9;
-  border-radius: 10px;
-  align-items: baseline;
-  justify-content: center;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  margin-top: 5px;
 
 }
 
 .dropdown-content a {
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  
+  text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #95E6F9;}
 
 
 .lista {
@@ -188,13 +186,10 @@ li{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   background-color: #355091;
 }
 
-.nav1 {
-  float: left;
-}
+
 
 .nav1 a {
   display: inline-block;
