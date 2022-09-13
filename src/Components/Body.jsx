@@ -9,13 +9,13 @@ function Content () {
               <h1 className="titulo1">Eres</h1>
         <div className="contenedor">
              <section className="dropdown">
-                <li className="dropbtn">Selecciona
+                <li className="dropbtn">Selecciona </li>
                 <div className="dropdown-content">
                     <li className="lista">MaleShep</li>
                     <li className="lista">FemShep</li>
                     
                 </div>
-                </li>
+               
             </section>
             <h1 className="titulo1">Clase</h1>
             <section className="dropdown">
@@ -27,11 +27,11 @@ function Content () {
                 </div>
             </section>
             <section>
-                <h1 className="titulo1"> sjsks</h1>
+                <h1 className="titulo1"> Aqui va un checkbox</h1>
             </section>
             
             <section className="dropdown">
-                <button className="search">Buscar</button>
+                <li className="search">Buscar</li>
             </section>
             </div>
          </section>
