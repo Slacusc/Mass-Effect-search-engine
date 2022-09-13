@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Routes, Route} from "react-router-dom";
 import "./App.css";
-import Buscador from "./Components/Buscador";
+import Buscador from "./Components/Main";
 import Home from "./Home";
 import "./Components/design.css";
 

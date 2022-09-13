@@ -4,6 +4,7 @@ import Nav from "./Botones"
 
 
 
+
 function Buscador() {
 return (
 
