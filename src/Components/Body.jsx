@@ -1,4 +1,6 @@
-import React from "react";
+import React, {useState, useContext} from "react";
+import data from "../data/data.json";
+
 
 
 function Content () {
@@ -27,10 +29,8 @@ function Content () {
                 </div>
             </section>
             <section>
-                <h1 className="titulo1"> Aqui va un checkbox</h1>
-            </section>
-            
-            <section className="dropdown">
+                <h1 className="titulo1"> Seleccion Múltiple</h1>
+                
                 <li className="search">Buscar</li>
             </section>
             </div>
@@ -43,4 +43,6 @@ function Content () {
     )
 }
 
-export default Content
+
+
+export default Content;

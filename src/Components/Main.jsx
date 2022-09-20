@@ -2,9 +2,6 @@ import React from "react";
 import Content from "./Body";
 import Nav from "./Botones"
 
-
-
-
 function Buscador() {
 return (
 
@@ -15,6 +12,7 @@ return (
     </section>
     <section>
         <Content />
+    
     </section>
    
     </div>
